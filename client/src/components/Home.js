@@ -3,8 +3,7 @@ import { default as NavBar } from "./NavBar";
 import { default as AboutMe } from "./aboutMe";
 import { default as ContactMe } from "./contactMe";
 import { default as Footer } from "./footer";
-import CopyrightIcon from '@mui/icons-material/Copyright';
-import { Box, Grid, Divider, Typography, BottomNavigation } from '@mui/material';
+import { Box, Grid, Divider } from '@mui/material';
 
 const Home = () => {
     const [userChoice, setUserChoice] = useState("1");
@@ -33,21 +32,11 @@ const Home = () => {
                     <Grid item>
                         <Divider/>
                     </Grid>
-                    {/* <Grid item style={{marginTop: 17, textAlign: "center"}}>
-                        
-                        <Typography
-                            variant="subtitle1"
-                            gutterBottom 
-                            component="div"
-                            sx={{ fontSize: 18 }}
-                        >
-                            Copyright <CopyrightIcon sx={{ verticalAlign: 'middle', display: 'inline-flex' }}/> {(new Date().getFullYear())} 
-                            <Box sx={{ fontWeight: 'bold', display:"inline" }}> Xingyuan Zhu</Box>. All Rights Reserved.
-                        </Typography>
-                    </Grid> */}
+                    <Grid item>
+                        <Footer/>
+                    </Grid>
                 </Grid>
             </Box>
-            <Footer/>
         </div>
     );
 }

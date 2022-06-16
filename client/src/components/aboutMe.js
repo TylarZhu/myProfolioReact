@@ -42,7 +42,7 @@ const AboutMe = () => {
                 <TimelineConnector/>
             </TimelineSeparator>
             <TimelineContent>
-                <Grid container direction="column" spacing={2} >
+                <Grid container direction="column" spacing={2} sx={{ pr: 12 }}>
                     <Grid item>
                         <img src={BCSLogo} height="250"/>
                     </Grid>
@@ -108,11 +108,11 @@ const AboutMe = () => {
                 2020.August
             </TimelineOppositeContent>
             <TimelineSeparator>
-                <TimelineDot color="success"/>
+                <TimelineDot color="info"/>
                 <TimelineConnector/>
             </TimelineSeparator>
             <TimelineContent>
-            <Grid container direction="column" spacing={2} >
+            <Grid container direction="column" spacing={2} sx={{ pr: 12 }}>
                     <Grid item>
                         <img src={Face2FaceLogo} height="250"/>
                     </Grid>
@@ -142,7 +142,7 @@ const AboutMe = () => {
             2021.April
             </TimelineOppositeContent>
             <TimelineSeparator>
-                <TimelineDot color="success"/>
+                <TimelineDot color="warning"/>
                 <TimelineConnector/>
             </TimelineSeparator>
             <TimelineContent>
@@ -177,11 +177,11 @@ const AboutMe = () => {
                 2022.June
             </TimelineOppositeContent>
             <TimelineSeparator>
-                <TimelineDot color="success"/>
+                <TimelineDot />
                 <TimelineConnector/>
             </TimelineSeparator>
             <TimelineContent>
-            <Grid container direction="column" spacing={2} >
+            <Grid container direction="column" spacing={2} sx={{ pr: 12 }}>
                     <Grid item>
                         <img src={Graduate} height="300"/>
                     </Grid>
