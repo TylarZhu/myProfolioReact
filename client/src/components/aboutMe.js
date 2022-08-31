@@ -197,7 +197,7 @@ const AboutMe = () => {
                             >
                             After six years of study, I <Box sx={{ fontWeight: 'bold', display:"inline" }}>graduated from the University of Toronto</Box>, Computer Science Department.
                             I have learned a lot from my University Career, 
-                            and I look forward to studying further and working in the website development field!
+                            and I look forward to studying further and working in your company!
                         </Typography>
                     </Grid>
                 </Grid>
